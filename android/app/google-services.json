@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "775144600537",
+    "firebase_url": "https://loginfirebase-228f0.firebaseio.com",
+    "project_id": "loginfirebase-228f0",
+    "storage_bucket": "loginfirebase-228f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775144600537:android:ad427e4b2c09d790989fc8",
+        "android_client_info": {
+          "package_name": "com.vintagerobot.time_tracker_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775144600537-02l07ieipm2u42m39u6rqud6h6kb4nra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vintagerobot.time_tracker_app",
+            "certificate_hash": "0dd5ddb471610a38c07d70fe0f1424de64bbcab8"
+          }
+        },
+        {
+          "client_id": "775144600537-88s57krl07r79uc5psh3cesqh41924qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6tkDPbu6nA2_jjsSMxOIE8cUx4Cc5VQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775144600537-88s57krl07r79uc5psh3cesqh41924qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
