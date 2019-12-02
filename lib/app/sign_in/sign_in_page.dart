@@ -1,16 +1,45 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:time_tracker_app/app/sign_in/email_sign_in_page.dart';
 import 'package:time_tracker_app/app/sign_in/sign_in_button.dart';
 import 'package:time_tracker_app/common_widgets/custom_raised_button.dart';
+import 'package:time_tracker_app/services/auth_provider.dart';
 
 class SignInPage extends StatelessWidget {
-  void _signInAnonymously() async {
+  Future<void> _signInAnonymously(BuildContext context) async {
     try {
-      final user = await FirebaseAuth.instance.signInAnonymously();
-      print('${user.additionalUserInfo}');
+      final auth = AuthProvider.of(context);
+      await auth.signInAnonymously();
     } catch (e) {
       print(e.toString());
     }
+  }
+
+  Future<void> _signInWithGoogle(BuildContext context) async {
+    try {
+      final auth = AuthProvider.of(context);
+      await auth.signInWithGoogle();
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+
+  Future<void> _signInWithFacebook(BuildContext context) async {
+    try {
+      final auth = AuthProvider.of(context);
+      await auth.signInWithFacebook();
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+
+  void _signInWithEmail(BuildContext context) {
+    //TODO: Show EmailSignInPage
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        fullscreenDialog: true,
+        builder: (context) => EmailSignInPage(),
+      ),
+    );
   }
 
   @override
@@ -22,12 +51,12 @@ class SignInPage extends StatelessWidget {
         elevation: 8.0,
         centerTitle: true,
       ),
-      body: _buildContent(),
+      body: _buildContent(context),
       backgroundColor: Colors.grey[200],
     );
   }
 
-  Widget _buildContent() {
+  Widget _buildContent(BuildContext context) {
     return Padding(
       padding: EdgeInsets.all(16),
       child: Column(
@@ -58,7 +87,7 @@ class SignInPage extends StatelessWidget {
                   Text('Sign in with Google'),
                 ]),
             color: Colors.white,
-            onPressed: () {},
+            onPressed: () => _signInWithGoogle,
           ),
           SizedBox(
             height: 8.0,
@@ -79,7 +108,7 @@ class SignInPage extends StatelessWidget {
                   ),
                 ]),
             color: Color(0xFF334D92),
-            onPressed: () {},
+            onPressed: () => _signInWithFacebook,
           ),
           SizedBox(
             height: 8.0,
@@ -88,7 +117,7 @@ class SignInPage extends StatelessWidget {
             text: 'Sign in with email',
             textColor: Colors.white,
             color: Colors.teal[700],
-            onPressed: () {},
+            onPressed: () => _signInWithEmail(context),
           ),
           SizedBox(
             height: 8.0,
@@ -105,7 +134,7 @@ class SignInPage extends StatelessWidget {
             text: 'Go anonymous',
             textColor: Colors.black,
             color: Colors.lime[300],
-            onPressed: _signInAnonymously,
+            onPressed: () => _signInAnonymously,
           ),
         ],
       ),
