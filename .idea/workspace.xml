@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93938ec9-8f71-4a55-b1a5-7453c8b7ed59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_bloc_based.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_change_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_change_notifier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/sign_in_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/sign_in/social_sign_in_button.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_stateful.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -29,28 +31,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_stateful.dart">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2811">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_bloc_based.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2305">
-              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="176">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/validators.dart">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_bloc_based.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2305">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_bloc.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_manager.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/social_sign_in_button.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +111,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_model.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-457">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="-745">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_change_model.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1581">
+              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_change_notifier.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -101,14 +175,18 @@
         <option value="$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart" />
         <option value="$PROJECT_DIR$/lib/common_widgets/custom_raised_button.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/landing_page.dart" />
-        <option value="$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart" />
-        <option value="$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_page.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_model.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_bloc.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_stateful.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_bloc_based.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/social_sign_in_button.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/sign_in_manager.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_change_model.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_change_notifier.dart" />
       </list>
     </option>
   </component>
@@ -207,7 +285,7 @@
     <frame x="0" y="23" width="1206" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26718214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26718214" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -217,7 +295,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3153153" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.3243243" />
+      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.3243243" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.32995495" />
@@ -361,16 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/flutter/packages/flutter/lib/src/services/message_codec.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2332">
@@ -415,32 +483,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_page.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -462,10 +510,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_model.dart">
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_stateful.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="-2811">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_bloc_based.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2305">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -479,16 +534,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_stateful.dart">
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_bloc.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2811">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_bloc_based.dart">
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2305">
+        <state relative-caret-position="176">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/social_sign_in_button.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_manager.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_model.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_change_model.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_change_notifier.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
           <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>

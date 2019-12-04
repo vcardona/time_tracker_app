@@ -2,25 +2,35 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:time_tracker_app/app/sign_in/email_sign_in_page.dart';
-import 'package:time_tracker_app/app/sign_in/sign_in_bloc.dart';
 import 'package:time_tracker_app/app/sign_in/sign_in_button.dart';
-import 'package:time_tracker_app/common_widgets/custom_raised_button.dart';
+import 'package:time_tracker_app/app/sign_in/sign_in_manager.dart';
+import 'package:time_tracker_app/app/sign_in/social_sign_in_button.dart';
 import 'package:time_tracker_app/common_widgets/platform_exception_alert_dialog.dart';
 import 'package:time_tracker_app/services/auth.dart';
 
 class SignInPage extends StatelessWidget {
-  final SignInBloc bloc;
-
-  const SignInPage({Key key, @required this.bloc}) : super(key: key);
+  const SignInPage({
+    Key key,
+    @required this.manager,
+    @required this.isLoading,
+  }) : super(key: key);
+  final SignInManager manager;
+  final bool isLoading;
 
   static Widget create(BuildContext context) {
     final auth = Provider.of<AuthBase>(context);
-    return Provider<SignInBloc>(
-      // ignore: deprecated_member_use
-      builder: (_) => SignInBloc(auth: auth),
-      dispose: (context, bloc) => bloc.dispose(),
-      child: Consumer<SignInBloc>(
-        builder: (context, bloc, _) => SignInPage(bloc: bloc),
+    return ChangeNotifierProvider<ValueNotifier<bool>>(
+      builder: (_) => ValueNotifier<bool>(false),
+      child: Consumer<ValueNotifier<bool>>(
+        builder: (_, isLoading, __) => Provider<SignInManager>(
+          builder: (_) => SignInManager(auth: auth, isLoading: isLoading),
+          child: Consumer<SignInManager>(
+            builder: (context, manager, _) => SignInPage(
+              manager: manager,
+              isLoading: isLoading.value,
+            ),
+          ),
+        ),
       ),
     );
   }
@@ -34,7 +44,7 @@ class SignInPage extends StatelessWidget {
 
   Future<void> _signInAnonymously(BuildContext context) async {
     try {
-      await bloc.signInAnonymously();
+      await manager.signInAnonymously();
     } on PlatformException catch (e) {
       _showSignInError(context, e);
     }
@@ -42,7 +52,7 @@ class SignInPage extends StatelessWidget {
 
   Future<void> _signInWithGoogle(BuildContext context) async {
     try {
-      await bloc.signInWithGoogle();
+      await manager.signInWithGoogle();
     } on PlatformException catch (e) {
       if (e.code != 'ERROR_ABORTED_BY_USER') {
         _showSignInError(context, e);
@@ -52,14 +62,15 @@ class SignInPage extends StatelessWidget {
 
   Future<void> _signInWithFacebook(BuildContext context) async {
     try {
-      await bloc.signInWithFacebook();
+      await manager.signInWithFacebook();
     } on PlatformException catch (e) {
-      _showSignInError(context, e);
+      if (e.code != 'ERROR_ABORTED_BY_USER') {
+        _showSignInError(context, e);
+      }
     }
   }
 
   void _signInWithEmail(BuildContext context) {
-    //TODO: Show EmailSignInPage
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         fullscreenDialog: true,
@@ -72,88 +83,55 @@ class SignInPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.amberAccent[200],
         title: Text('Time Tracker'),
-        elevation: 8.0,
-        centerTitle: true,
+        elevation: 2.0,
       ),
-      body: StreamBuilder<bool>(
-          stream: bloc.isLoadingStream,
-          initialData: false,
-          builder: (context, snapshot) {
-            return _buildContent(context, snapshot.data);
-          }),
+      body: _buildContent(context),
       backgroundColor: Colors.grey[200],
     );
   }
 
-  Widget _buildContent(BuildContext context, bool isLoading) {
+  Widget _buildContent(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(16),
+      padding: EdgeInsets.all(16.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          SizedBox(height: 50.0, child: _buildHeader(isLoading)),
           SizedBox(
-            height: 48.0,
+            height: 50.0,
+            child: _buildHeader(),
           ),
-          CustomRaisedButton(
-            child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Image.asset(
-                    'images/google-logo.png',
-                  ),
-                  SizedBox(
-                    width: 10.0,
-                  ),
-                  Text('Sign in with Google'),
-                ]),
+          SizedBox(height: 48.0),
+          SocialSignInButton(
+            assetName: 'images/google-logo.png',
+            text: 'Sign in with Google',
+            textColor: Colors.black87,
             color: Colors.white,
             onPressed: isLoading ? null : () => _signInWithGoogle(context),
           ),
-          SizedBox(
-            height: 8.0,
-          ),
-          CustomRaisedButton(
-            child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Image.asset(
-                    'images/facebook-logo.png',
-                  ),
-                  SizedBox(
-                    width: 10.0,
-                  ),
-                  Text(
-                    'Sign in with Facebook',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ]),
+          SizedBox(height: 8.0),
+          SocialSignInButton(
+            assetName: 'images/facebook-logo.png',
+            text: 'Sign in with Facebook',
+            textColor: Colors.white,
             color: Color(0xFF334D92),
             onPressed: isLoading ? null : () => _signInWithFacebook(context),
           ),
-          SizedBox(
-            height: 8.0,
-          ),
+          SizedBox(height: 8.0),
           SignInButton(
             text: 'Sign in with email',
             textColor: Colors.white,
             color: Colors.teal[700],
             onPressed: isLoading ? null : () => _signInWithEmail(context),
           ),
-          SizedBox(
-            height: 8.0,
-          ),
+          SizedBox(height: 8.0),
           Text(
             'or',
             style: TextStyle(fontSize: 14.0, color: Colors.black87),
             textAlign: TextAlign.center,
           ),
-          SizedBox(
-            height: 8.0,
-          ),
+          SizedBox(height: 8.0),
           SignInButton(
             text: 'Go anonymous',
             textColor: Colors.black,
@@ -165,14 +143,14 @@ class SignInPage extends StatelessWidget {
     );
   }
 
-  Widget _buildHeader(bool isLoading) {
+  Widget _buildHeader() {
     if (isLoading) {
       return Center(
         child: CircularProgressIndicator(),
       );
     }
     return Text(
-      'Sign In',
+      'Sign in',
       textAlign: TextAlign.center,
       style: TextStyle(
         fontSize: 32.0,
