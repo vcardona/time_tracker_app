@@ -5,125 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93938ec9-8f71-4a55-b1a5-7453c8b7ed59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/services/database.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/api_path.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/firestore_service.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth" beforeDir="false" afterPath="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core" beforeDir="false" afterPath="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDAuthState+Mac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDAuthState+Mac.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDAuthorizationService+Mac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDAuthorizationService+Mac.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDExternalUserAgentMac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDExternalUserAgentMac.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDRedirectHTTPHandler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/AppAuth/Source/macOS/OIDRedirectHTTPHandler.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Firebase/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Firebase/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAnalytics/Frameworks/FIRAnalyticsConnector.framework/FIRAnalyticsConnector" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAnalytics/Frameworks/FIRAnalyticsConnector.framework/FIRAnalyticsConnector" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthCredential.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthCredential.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthCredential_Internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthCredential_Internal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthProvider.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthProvider.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthBackend.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthBackend.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyAssertionRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyAssertionRequest.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyAssertionRequest.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyAssertionRequest.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthInternalErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthInternalErrors.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuth/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponentContainer.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponentContainer.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainerInternal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainerInternal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnostics.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnostics.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Protogen/nanopb/firebasecore.nanopb.c" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Protogen/nanopb/firebasecore.nanopb.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Protogen/nanopb/firebasecore.nanopb.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Protogen/nanopb/firebasecore.nanopb.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnostics/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnosticsInterop/Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsData.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnosticsInterop/Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnosticsInterop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCoreDiagnosticsInterop/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeychain.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeychain.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORPlatform.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORPlatform.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORRegistrar.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORRegistrar.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCOREventTransformer.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCOREventTransformer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORPlatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORPlatform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransport/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport/GDTCCTLibrary/GDTCCTUploader.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport/GDTCCTLibrary/GDTCCTUploader.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport/GDTCCTLibrary/GDTFLLUploader.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport/GDTCCTLibrary/GDTFLLUploader.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleDataTransportCCTSupport/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleDataTransportCCTSupport/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/GULLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/GULLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_auth.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_auth.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_core.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_core.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/vhcg.xcuserdatad/xcschemes/Pods-Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/vhcg.xcuserdatad/xcschemes/Pods-Runner.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/vhcg.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/vhcg.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_encode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_encode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcuserdata/vhcg.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcuserdata/vhcg.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/sign_in/home/jobs_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/landing_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/sign_in/landing_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/home/jobs_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/sign_in/landing_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common_widgets/platform_alert_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common_widgets/platform_alert_dialog.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/database.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_tracker_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/time_tracker_app.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -141,106 +35,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="10.1_WXGA_Tablet_Edited_API_22" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_bloc.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/social_sign_in_button.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/landing_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/services/database.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/Podfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/gradle.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app/sign_in/sign_in_manager.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/lib/app/home/models/entry.dart">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -263,20 +60,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/app/sign_in/sign_in_button.dart" />
-        <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/lib/common_widgets/form_submit_button.dart" />
         <option value="$PROJECT_DIR$/lib/services/auth.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/validators.dart" />
         <option value="$PROJECT_DIR$/lib/common_widgets/platform_widget.dart" />
-        <option value="$PROJECT_DIR$/lib/common_widgets/platform_alert_dialog.dart" />
         <option value="$PROJECT_DIR$/lib/services/auth_provider.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart" />
         <option value="$PROJECT_DIR$/lib/common_widgets/custom_raised_button.dart" />
-        <option value="$PROJECT_DIR$/lib/app/sign_in/landing_page.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_page.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_model.dart" />
@@ -290,12 +80,37 @@
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_change_model.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/email_sign_in_form_change_notifier.dart" />
         <option value="$PROJECT_DIR$/lib/app/sign_in/home_page.dart" />
-        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs_page.dart" />
         <option value="$PROJECT_DIR$/android/gradle.properties" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/ios/Podfile" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/landing_page.dart" />
+        <option value="$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs/job_list_tile.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs/add_job_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/models/Job.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs/edit_job_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs/empty_content.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs/list_items_builder.dart" />
+        <option value="$PROJECT_DIR$/lib/services/firestore_service.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/job_entries/date_time_picker.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/job_entries/entry_page.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/job_entries/job_entries_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/job_entries/entry_list_item.dart" />
+        <option value="$PROJECT_DIR$/lib/app/sign_in/home/jobs_page.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/jobs/job_list_tile.dart" />
+        <option value="$PROJECT_DIR$/lib/common_widgets/date_time_picker.dart" />
+        <option value="$PROJECT_DIR$/lib/app/landing_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/jobs/edit_job_page.dart" />
+        <option value="$PROJECT_DIR$/lib/services/api_path.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/models/job.dart" />
         <option value="$PROJECT_DIR$/lib/services/database.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/job_entries/entry_list_item.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/job_entries/entry_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/job_entries/job_entries_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/home/jobs/jobs_page.dart" />
+        <option value="$PROJECT_DIR$/lib/common_widgets/platform_alert_dialog.dart" />
       </list>
     </option>
   </component>
@@ -322,31 +137,51 @@
             <path>
               <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
-              <item name="ios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
-              <item name="ios" type="462c0819:PsiDirectoryNode" />
-              <item name="Pods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sign_in" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sign_in" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="job_entries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="time_tracker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sign_in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="time_tracker_app" type="b2602c69:ProjectViewProjectNode" />
@@ -388,9 +223,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/app/sign_in/home/jobs" />
+      <recent name="$PROJECT_DIR$/lib/common_widgets" />
+      <recent name="$PROJECT_DIR$/lib/services" />
+      <recent name="$PROJECT_DIR$/lib/app/sign_in/home/models" />
       <recent name="$PROJECT_DIR$/lib/app/sign_in/home" />
-      <recent name="$PROJECT_DIR$/android/app" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,10 +256,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1437" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1207" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22293907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26695278" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -432,16 +269,16 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3153153" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.2636535" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49957082" weight="0.2635135" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.32995495" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.61205274" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.6114865" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004292" side_tool="true" weight="0.2635135" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3258004" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32545045" />
       <window_info anchor="bottom" id="Find" order="11" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -451,143 +288,8 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Assistant" order="6" weight="0.32954547" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26718214" />
-      <window_info id="Captures" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Build Variants" order="5" side_tool="true" />
-      <window_info id="Resources Explorer" order="6" weight="0.32903782" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3153153" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.3243243" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" order="4" weight="0.32995495" />
-      <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.6129386" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32963988" />
-      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277027" />
-      <window_info anchor="bottom" id="Find" order="11" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" />
-      <window_info anchor="right" id="Flutter Outline" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/widget_test.dart" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/bug-report_1.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common_widgets/form_submit_button.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common_widgets/platform_widget.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common_widgets/platform_alert_dialog.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/auth_provider.dart" />
-    <entry file="file://$USER_HOME$/Documents/flutter/packages/flutter/lib/src/services/message_codec.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common_widgets/custom_raised_button.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/auth.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -681,26 +383,6 @@
     <entry file="file://$PROJECT_DIR$/.flutter-plugins">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_bloc.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/app/sign_in/social_sign_in_button.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -732,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/landing_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/Podfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -749,19 +421,281 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/landing_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common_widgets/platform_exception_alert_dialog.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs/job_list_tile.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/models/Job.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/firestore_service.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs/empty_content.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs/list_items_builder.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/email_sign_in_bloc.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/job_entries/entry_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/job_entries/format.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="418">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/job_entries/entry_list_item.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs/jobs_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-993">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/job_entries/job_entries_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/sign_in/home/jobs/edit_job_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common_widgets/date_time_picker.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/api_path.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/database.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        <state relative-caret-position="88">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/flutter/packages/flutter/lib/src/widgets/framework.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="2903" column="11" selection-start-line="2903" selection-start-column="11" selection-end-line="2903" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common_widgets/input_dropdown.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/jobs/job_list_tile.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/jobs/list_items_builder.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/models/job.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/job_entries/format.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/job_entries/entry_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/jobs/empty_content.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common_widgets/platform_alert_dialog.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/landing_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/jobs/edit_job_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/jobs/jobs_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/job_entries/job_entries_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/job_entries/entry_list_item.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/home/models/entry.dart">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
