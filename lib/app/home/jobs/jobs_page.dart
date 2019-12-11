@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -51,26 +52,16 @@ class JobsPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Jobs'),
         actions: <Widget>[
-          FlatButton(
-            child: Text(
-              'Logout',
-              style: TextStyle(
-                fontSize: 18.0,
-                color: Colors.white,
-              ),
+          IconButton(
+            icon: Icon(Icons.add, color: Colors.black),
+            onPressed: () => EditJobPage.show(
+              context,
+              database: Provider.of<Database>(context),
             ),
-            onPressed: () => _confirmSignOut(context),
           ),
         ],
       ),
       body: _buildContents(context),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: () => EditJobPage.show(
-          context,
-          database: Provider.of<Database>(context),
-        ),
-      ),
     );
   }
 
